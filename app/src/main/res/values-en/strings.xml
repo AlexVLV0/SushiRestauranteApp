@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Infinite Rolls</string>
+    <string name="bienvenido">Infinite Rolls</string>
+    <string name="carrito">Shopping Cart</string>
+    <string name="idioma">Language</string>
+    <string name="titulo_string">Welcome to Infinite Rolls!</string>
+    <string name="resumen_boton_descripcion">Summary</string>
+    <string name="idioma_boton_descripcion">Language Selector</string>
+    <string name="sushi">Sushi</string>
+    <string name="wok">Wok</string>
+    <string name="temaki">Temaki</string>
+    <string name="aperitivo">Snacks</string>
+    <string name="bebida">Drinks</string>
+    <string name="vinos">Wines</string>
+    <string name="postre">Dessert</string>
+    <string name="sopas">Soups</string>
+    <string name="nigiris">Nigiri</string>
+    <string name="boton_flotante_carrito_descripcion">Shopping Cart</string>
+    <string name="detalles_del_pedido">Order details</string>
+    <string name="aceptar">Accept</string>
+    <string name="rechazar">Reject</string>
+    <string name="nombre_del_plato">Dish Name</string>
+    <string name="cantidad_1">Amount: 1</string>
+    <string name="subtotal_0_00">Subtotal: $0.00</string>
+    <string name="nombre_del_plato_item">Dish name</string>
+    <string name="descripci_n_del_plato">Dish description</string>
+    <string name="precio">Cost</string>
+    <string name="a_adir">Add</string>
+    <string name="resumen_del_pedido">Order summary</string>
+    <string name="total_0_00">Total: $0.00</string>
+    <string name="confirmar">Confirm</string>
+    <string name="rechazar_2">Reject</string>
+    <string name="pedidoaceptado">Order has been accepted</string>
+    <string name="pedidorechazado">Order has been cancelled</string>
+    <string name="numero_mesa">Table: %d</string>
+    <string name="detalle_plato">Dish Description</string>
+    <string name="titulo_detalle_plato">Dish Name</string>
+    <string name="agregar_plato">Add Dish</string>
+    <string name="gesti_n_de_platos">Dish management</string>
+    <string name="eliminar_plato">Remove dish</string>
+    <string name="mesa">Table:</string>
+    <string name="precio_dialogo">Cost</string>
+    <string name="seleccionar_imagen">Select image</string>
+    <string name="nombre_del_plato_dialogo">Dish name</string>
+    <string name="descripci_n_dialogo">Description</string>
+    <string name="detalles_adicionales">Additional details</string>
+
+</resources>

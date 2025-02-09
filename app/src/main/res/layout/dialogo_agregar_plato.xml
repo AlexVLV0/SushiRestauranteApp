@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/light_orange">
+
+    <EditText
+        android:id="@+id/etNombrePlato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_del_plato_dialogo"
+        android:inputType="textCapWords"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@android:color/white"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etDescripcionPlato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/descripci_n_dialogo"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@android:color/white"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etDetallePlato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/detalles_adicionales"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@android:color/white"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etPrecioPlato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/precio_dialogo"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@android:color/white"
+        android:layout_marginBottom="12dp" />
+
+    <ImageView
+        android:id="@+id/ivPlato"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:background="@color/blue_light"
+        android:src="@drawable/sushi" />
+
+    <Button
+        android:id="@+id/btnSeleccionarImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccionar_imagen"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/orange"
+        android:textColor="@android:color/white"
+        android:paddingHorizontal="16dp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
